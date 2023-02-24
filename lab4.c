@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main() {
 
   int order = 0, time = 0;
   float cost = 0;
