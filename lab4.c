@@ -24,22 +24,22 @@ int main() {
                     case 1:
                         cost += 5;
                         time += 2;
-                        printf("Vanilla, small: %.2f cedis\n", cost);
+                        printf("Flavor: Vanilla\nSize: Small\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 2:
                         cost += 5;
                         time += 2;
-                        printf("Strawberry, small: %.2f cedis\n", cost);
+                        printf("Flavor: Strawberry\nSize: Small\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 3:
                         cost += 6;
                         time += 2;
-                        printf("Chocolate, small: %.2f cedis\n", cost);
+                        printf("Flavor: Chocolate\nSize: Small\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 4:
                         cost += 7;
                         time += 2;
-                        printf("Mango, small: %.2f cedis\n", cost);
+                        printf("Flavor: Mango\nSize: Small\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     default:
                         printf("Invalid flavor entry.\n");
@@ -50,22 +50,22 @@ int main() {
                     case 1:
                         cost += 8;
                         time += 3;
-                        printf("Vanilla, large: %.2f cedis\n", cost);
+                        printf("Flavor: Vanilla\nSize: Large\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 2:
                         cost += 8;
                         time += 3;
-                        printf("Strawberry, large: %.2f cedis\n", cost);
+                        printf("Flavor: Strawberry\nSize: Large\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 3:
                         cost += 9;
                         time += 3;
-                        printf("Chocolate, large: %.2f cedis\n", cost);
+                        printf("Flavor: Chocolate\nSize: Large\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     case 4:
                         cost += 10;
                         time += 3;
-                        printf("Mango, large: %.2f cedis\n", cost);
+                        printf("Flavor: Mango\nSize: Large\nCost: %.2f cedis\nTime: %d mins\n", cost, time);
                         break;
                     default:
                         printf("Invalid flavor entry.\n");
